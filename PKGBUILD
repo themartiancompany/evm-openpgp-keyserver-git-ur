@@ -11,10 +11,10 @@ _offline='false'
 _solc="true"
 _hardhat="true"
 _proj="hip"
-_pkg=evmfs
+_pkg=evm-openpgp-keyserver
 _pkgname="${_pkg}"
 pkgname="${_pkgname}-git"
-pkgver=0.0.0.0.0.0.0.0.0.1.1.1.1.1.1.r82.gf2df94c
+pkgver=0.0.0.0.0.0.0.0.0.0.0.1.r0.ge075f3a
 pkgrel=1
 _pkgdesc=(
   "Lets one associate OpenPGP keys to an Ethereum"
