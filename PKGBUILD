@@ -17,8 +17,7 @@ pkgname="${_pkgname}-git"
 pkgver=0.0.0.0.0.0.0.0.0.0.0.1.r0.ge075f3a
 pkgrel=1
 _pkgdesc=(
-  "Lets one associate OpenPGP keys to an Ethereum"
-  "Virtual Machine network address."
+  "Ethereum Virtual Machine OpenPGP Key Server."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -42,8 +41,9 @@ depends=(
   "evm-contracts-tools"
   "evm-wallet"
   "evmfs"
+  "gnupg"
+  "gpg-key-info"
   "libcrash-bash"
-  "libcrash-js"
 )
 [[ "${_os}" == 'GNU/Linux' ]] && \
   depends+=(
